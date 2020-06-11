@@ -1,0 +1,34 @@
+{
+  "name": "tindev",
+  "version": "1.0.0",
+  "description": "Projeto Desenvolvido na Semana Omnistack 08, com a tutoria do Diego Fernandes da Rocket Seat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpedrohfreitas/RocketSeat_TinDev.git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "Semana Omnistack 08",
+    "TinDev",
+    "Rocket Seat"
+  ],
+  "author": {
+    "name": "Pedro Henrique Freitas",
+    "email": "dev.pedrohfreitas@gmail.com",
+    "url": "https://github.com/devpedrohfreitas"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devpedrohfreitas/RocketSeat_TinDev/issues"
+  },
+  "homepage": "https://github.com/devpedrohfreitas/RocketSeat_TinDev#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5"
+  }
+}
